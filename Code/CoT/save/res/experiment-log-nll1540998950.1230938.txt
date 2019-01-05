@@ -1,0 +1,5 @@
+batch:	0	nll_test:	9.634177
+batch:	100	nll_test:	7.8091493
+batch:	200	nll_test:	9.264192
+batch:	300	nll_test:	9.207006
+batch:	400	nll_test:	8.873956
