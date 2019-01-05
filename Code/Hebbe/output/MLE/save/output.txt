@@ -1,0 +1,92 @@
+Jacobs-MacBook-Pro:Texygen jacob$ python3 main.py -g seqgan -t real -d data/train.txt 
+/usr/local/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+2018-10-26 12:23:35.662778: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+WARNING:tensorflow:From /Users/jacob/Documents/School/DA233X/Code/Texygen/models/seqgan/SeqganDiscriminator.py:129: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See @{tf.nn.softmax_cross_entropy_with_logits_v2}.
+
+start pre-train generator:
+epoch:0	 time:1362.62148976326
+WARNING:tensorflow:From /Users/jacob/Documents/School/DA233X/Code/Texygen/utils/metrics/DocEmbSim.py:127: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+time elapsed of EmbeddingSimilarity: 86.80353903770447
+time elapsed of nll-test: 601.857390165329
+epoch:1	EmbeddingSimilarity:-0.002673208659592655	nll-test:1.1339034	
+epoch:1	 time:1370.4282031059265
+epoch:2	 time:1470.3441832065582
+epoch:3	 time:1491.1143910884857
+epoch:4	 time:1477.5322880744934
+epoch:5	 time:1480.112378835678
+time elapsed of EmbeddingSimilarity: 41.32435369491577
+time elapsed of nll-test: 615.2359020709991
+epoch:6	EmbeddingSimilarity:-0.002391997521815685	nll-test:0.9192941	
+epoch:6	 time:1404.1693460941315
+epoch:7	 time:1355.7029418945312
+epoch:8	 time:1353.3053731918335
+epoch:9	 time:1334.5669338703156
+epoch:10	 time:1372.5064249038696
+time elapsed of EmbeddingSimilarity: 42.04793190956116
+time elapsed of nll-test: 601.185704946518
+epoch:11	EmbeddingSimilarity:-0.0019676539399431153	nll-test:0.77712375	
+epoch:11	 time:1371.6543419361115
+epoch:12	 time:1351.276799917221
+epoch:13	 time:1388.4616389274597
+epoch:14	 time:1389.0749480724335
+epoch:15	 time:3418.5816729068756
+time elapsed of EmbeddingSimilarity: 41.73295998573303
+time elapsed of nll-test: 620.4164040088654
+epoch:16	EmbeddingSimilarity:-0.0019495323685205443	nll-test:0.6907642	
+epoch:16	 time:1404.2362079620361
+epoch:17	 time:1387.4284219741821
+epoch:18	 time:1414.5710208415985
+epoch:19	 time:1392.9720318317413
+epoch:20	 time:1397.1729669570923
+time elapsed of EmbeddingSimilarity: 41.016868114471436
+time elapsed of nll-test: 601.8502697944641
+epoch:21	EmbeddingSimilarity:-0.0020069470777770377	nll-test:0.6407549	
+epoch:21	 time:1386.3574719429016
+epoch:22	 time:1383.2388348579407
+epoch:23	 time:1396.856047153473
+epoch:24	 time:1425.4718902111053
+epoch:25	 time:1465.8109438419342
+time elapsed of EmbeddingSimilarity: 42.2264928817749
+time elapsed of nll-test: 602.4654719829559
+epoch:26	EmbeddingSimilarity:-0.001983043805034588	nll-test:0.6068474	
+epoch:26	 time:1504.7363040447235
+epoch:27	 time:1542.0776069164276
+epoch:28	 time:1611.426983833313
+epoch:29	 time:1664.5062081813812
+epoch:30	 time:1736.4176950454712
+time elapsed of EmbeddingSimilarity: 41.17355179786682
+time elapsed of nll-test: 607.5269329547882
+epoch:31	EmbeddingSimilarity:-0.0019410645078258263	nll-test:0.5869905	
+epoch:31	 time:1708.7652041912079
+epoch:32	 time:1687.0274670124054
+epoch:33	 time:1728.2945809364319
+epoch:34	 time:1709.0070917606354
+epoch:35	 time:1716.7152199745178
+time elapsed of EmbeddingSimilarity: 41.329511880874634
+time elapsed of nll-test: 602.8226799964905
+epoch:36	EmbeddingSimilarity:-0.0018347851917140765	nll-test:0.57319885	
+epoch:36	 time:1673.6226029396057
+epoch:37	 time:1721.8883650302887
+epoch:38	 time:1725.0582268238068
+epoch:39	 time:1738.2553758621216
+epoch:40	 time:1711.888767004013
+time elapsed of EmbeddingSimilarity: 41.07483410835266
+time elapsed of nll-test: 602.4513118267059
+epoch:41	EmbeddingSimilarity:-0.0019014159489761306	nll-test:0.5620225	
+epoch:41	 time:1746.549348115921
+epoch:42	 time:1706.5988447666168
+epoch:43	 time:1741.8859949111938
+epoch:44	 time:1742.0079989433289
+epoch:45	 time:1733.5063030719757
+time elapsed of EmbeddingSimilarity: 41.22909188270569
+time elapsed of nll-test: 602.0152730941772
+epoch:46	EmbeddingSimilarity:-0.0019357331202178019	nll-test:0.55422336

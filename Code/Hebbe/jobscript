@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#SBATCH -A SNIC2018-4-53
+#SBATCH -C GPU
+#SBATCH -n 20
+#SBATCH -t 0-00:30:00
+
+module load foss/2018a TensorFlow/1.6.0-Python-3.6.4-CUDA-9.1.85
+
+export PYTHONPATH=$PYTHONPATH:/c3se/NOBACKUP/users/jacjonss/jj_python/lib/python3.6/site-packages/
+export PATH=$PATH:$SNIC_NOBACKUP/jj_python/bin
+
+cd CoT
+python cot_JJ.py

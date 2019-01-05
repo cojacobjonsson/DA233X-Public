@@ -1,0 +1,4 @@
+model: ../Data/cot130.txt       BLEU2: 0.015961834482920698
+model: ../Data/cot5080.txt      BLEU2: 0.09197651663405088
+model: ../Data/mle.txt          BLEU2: 0.1608548603417109
+model: ../Data/seqgan5080.txt   BLEU2: 0.18160664578983995

@@ -1,0 +1,4 @@
+model: data/cot130.txt, avgNLL: 756.3519700780867, avg NLL per word: 16.253407752441394
+model: data/cot5080.txt, avgNLL: 194.47082938016163, avg NLL per word: 9.77955082578344
+model: data/mle.txt, avgNLL: 142.28427146338225, avg NLL per word: 9.151639712687041
+model: data/seqgan5080.txt, avgNLL: 123.41322782781363, avg NLL per word: 8.116513430204567

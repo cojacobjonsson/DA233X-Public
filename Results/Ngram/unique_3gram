@@ -1,0 +1,9 @@
+model: ../Data/cot130.txt       unique n-grams: 440770
+model: ../Data/cot5080.txt      unique n-grams: 181164
+model: ../Data/mle.txt          unique n-grams: 119956
+model: ../Data/seqgan5080.txt   unique n-grams: 101624
+
+model: ../Data/cot130.txt       unique 3-grams: 99.78515753227731%
+model: ../Data/cot5080.txt      unique 3-grams: 96.75651714137697%
+model: ../Data/mle.txt  unique 3-grams: 84.14067870319711%
+model: ../Data/seqgan5080.txt   unique 3-grams: 73.80423257367787%

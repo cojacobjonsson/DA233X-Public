@@ -1,0 +1,15 @@
+# loading modules
+module load GCC/6.4.0-2.28 OpenMPI/2.1.2
+module load Python/3.6.4
+module load TensorFlow/1.6.0-Python-3.6.4
+
+# install nltk
+pip install nltk --prefix $SNIC_NOBACKUP/jj_python
+
+# add to pythonpath, path
+export PYTHONPATH=$PYTHONPATH:/c3se/NOBACKUP/users/jacjonss/jj_python/lib/python3.6/site-packages/
+export PATH=$PATH:$SNIC_NOBACKUP/jj_python/bin
+
+# load nltk libraries
+python
+import nltk

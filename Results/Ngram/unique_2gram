@@ -1,0 +1,9 @@
+model: ../Data/cot130.txt       unique 2-grams: 425515
+model: ../Data/cot5080.txt      unique 2-grams: 110887
+model: ../Data/mle.txt          unique 2-grams: 68596
+model: ../Data/seqgan5080.txt   unique 2-grams: 45984
+
+model: ../Data/cot130.txt       unique 2-grams: 94.20342795407551%
+model: ../Data/cot5080.txt      unique 2-grams: 56.23358182463614%
+model: ../Data/mle.txt  unique 2-grams: 44.966240576860045%
+model: ../Data/seqgan5080.txt   unique 2-grams: 31.150461661439245%

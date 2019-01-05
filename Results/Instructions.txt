@@ -1,0 +1,8 @@
+I filen "Human Evaluation" finns 100 samples vardera från de fyra olika modellerna som jämförs, och 100 samples från testdatan som kommer från partiernas politiska manifest. De har slumpmässig ordning.
+
+Varje sample ska betygsättas från 1 till 5 där 5 innebär att det skulle kunna vara en människa som skrivit. 1 borde motsvara en helt slumpmässig ordföljd, till exempel denna som genererats efter bara en träningsepok:
+"informationstekniken bostadsbubbla valets fiske rätttvisare bränsle instegsjobben vågar förvaltning tesen farlig"
+
+Eftersom modellerna är tränade på ganska långa meningar med ett stort ordförråd kommer de flesta inte att vara helt vettiga innehållsmässigt. Därför borde skalan 1-4 säga ungefär "hur orimlig är meningen", och en 4 behöver alltså inte betyda att ni tror att en människa skrivit meningen.
+
+Utöver betyget har jag även med en kolumn där ni kan markera om det är en mening ni tycker är särskilt bra, rolig etc. Jag kommer välja några sådana att ha med som exempel på output i rapporten. Ni behöver inte välja någon alls om ni inte vill.

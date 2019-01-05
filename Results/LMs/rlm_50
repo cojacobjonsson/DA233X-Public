@@ -1,0 +1,4 @@
+model: cot130, avg rNLL: 125.93489915401936, avg rNLL per word: 8.440239682049258
+model: cot5080, avg rNLL: 129.73380603055506, avg rNLL per word: 8.76460597810929
+model: mle, avg rNLL: 129.95718725273534, avg rNLL per word: 8.83256385820577
+model: seqgan5080, avg rNLL: 137.64827340071798, avg rNLL per word: 9.339328697832268
